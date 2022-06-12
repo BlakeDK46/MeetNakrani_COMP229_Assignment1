@@ -1,0 +1,230 @@
+/* custom css code by Meet Nakrani(301225546) */
+
+.meet-custom {
+    color: lightblue;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 70px;
+}
+
+.meet-custom2 {
+    color: lightblue;
+    font-weight: 300;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 40px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    width: 100%;
+    padding: 80px 0px;
+
+}
+
+.about img {
+    height: auto;
+    width: 420px;
+}
+
+.about-text {
+    width: 550px;
+
+}
+
+.main {
+    width: 1130px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1 {
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: red;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+span {
+    color: #f9004d;
+
+}
+
+.about-text p {
+    color: #fcfc;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+button {
+    background: #f9005d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 13px 30px;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid #f972f9;
+    cursor: pointer;
+}
+
+.meet-contact-page-title {
+    color: lightgray;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 30px;
+}
+
+.formcontainer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 4px;
+    padding: 18px;
+}
+
+.contactform {
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 30em;
+    padding: 8px;
+    color: cadetblue;
+    box-sizing: border-box;
+}
+
+.contactform label {
+    padding: 0;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+}
+
+.contactform input,
+.contactform textarea {
+    margin-left: 1px;
+    float: right;
+    width: 20em;
+    border: 1px solid #ccc;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    padding: 0.3em;
+}
+
+.contactform textarea {
+    height: 130px;
+}
+
+.contactform button {
+    background: #299cd1;
+    color: white;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 11px 32px;
+    border-radius: 32px;
+    border: none;
+    font-weight: bold;
+    margin-left: 12em;
+    margin-top: 1.6em;
+
+}
+
+.contactform button:hover {
+    background: transparent;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.meet-services-page-text {
+    text-align: left;
+    color: #f17e3b;
+    font-size: 30px;
+}
+
+.meet-services-page-desc {
+    text-align: left;
+    color: #eecc5d;
+    font-size: 15px;
+}
+
+aboutButton {
+    background: #f9005d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 13px 30px;
+    transition: .4s;
+}
+
+aboutButton:hover {
+    background-color: transparent;
+    border: 2px solid #f972f9;
+    cursor: pointer;
+}
+
+.containerPageCentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}

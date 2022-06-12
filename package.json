@@ -1,0 +1,25 @@
+{
+  "name": "meetnakrani-comp229-assignment1",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "bootstrap": "^5.2.0-beta1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.16",
+    "popper.js": "^1.16.1"
+  },
+  "description": "assignment1",
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "Meet Nakrani",
+  "license": "ISC"
+}

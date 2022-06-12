@@ -1,0 +1,101 @@
+<!--
+Page : contact.ejs
+Name : Meet Nakrani
+Student Id : 301225546
+Date : June 11, 2022
+-->
+
+
+<%- include partials/header.ejs %>
+
+  <%- include partials/main_nav.ejs %>
+
+
+
+    <!--Main Content-->
+    <div class="formcontainer">
+
+      <!--Heading of page-->
+      <div style="text-align:center">
+        <h1>Contact us</h1>
+        &nbsp;
+      </div>
+
+
+      <div class="row">
+
+        <!--left side div-->
+        <div class="column">
+          <form class="contactform" method="post" style="color: blue;">
+            &nbsp;
+            <p>
+              <label>MY DETAILS:
+              </label>
+            </p>
+            <p>
+              <label>Name : Meet Nakrani
+              </label>
+            </p>
+            <p>
+              <label>Email : nakranimeet46@gmail.com
+              </label>
+            </p>
+            <p>
+              <label>Address : 74 Crittenden Square, Scarborough ON M1B 1V1
+              </label>
+            </p>
+            <p>
+              <label>Contact Number: +1 437-421-8381
+              </label>
+            </p>
+          </form>
+        </div>
+
+        <!--right side div-->
+
+        <div class="column">
+          <form class="contactform" method="POST" action="/submitForm">
+
+
+            &nbsp;
+
+            <p>
+              <label>First Name:
+                <input type="text" name="fname">
+              </label>
+            </p>
+
+            <p>
+              <label>Last Name:
+                <input type="email" name="lname">
+              </label>
+            </p>
+
+            <p>
+              <label>Email address:
+                <input type="email" name="email">
+              </label>
+            </p>
+
+            <p>
+              <label>Contact Number:
+                <input type="contactnumber" name="contact">
+              </label>
+            </p>
+
+            <p>
+              <label>Your Message:
+                <textarea name="message" maxlength="1000"></textarea>
+              </label>
+            </p>
+
+            <p><button>SUBMIT</button></p>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <%- include partials/bottom_nav.ejs %>
+
+      <%- include partials/footer.ejs %>
