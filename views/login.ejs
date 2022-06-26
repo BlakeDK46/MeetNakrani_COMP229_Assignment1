@@ -1,0 +1,44 @@
+<!--
+Page : login.ejs
+Name : Meet Nakrani
+Student Id : 301225546
+Date : June 11, 2022
+-->
+
+<%- include partials/header.ejs %>
+
+    <%- include partials/main_nav.ejs %>
+
+  <div class="container-fluid bg-white">
+    <div class="jumbotron" style="background-color: bisque;"></div>
+    
+    <div class="row " style="padding: 0%;">
+        <div style="color: black">
+            <h1> <%=title%> </h1>
+        </div>
+        <p>&nbsp;</p>
+        <div class="col col-lg-4 ">
+            <form method="post">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">User Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" name ="username" placeholder="Enter username">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Password</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" name ="password" placeholder="Enter password">
+                </div>
+                <button type="Submit" class="btn btn-success text-white">Login</button>
+
+            </form>
+            <p>&nbsp;</p>
+            <a href="/login/register">If you are a new user, click here to refister</a>
+
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<%- include partials/bottom_nav.ejs %>
+
+<%- include partials/footer.ejs %>

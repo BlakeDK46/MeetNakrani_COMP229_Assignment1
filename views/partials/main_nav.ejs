@@ -54,6 +54,14 @@
                         <a class="nav-link" href="/contact"><i class="fa-solid fa-address-book"></i> Contact Us</a>
                     </li>
 
+                    <% if(title=="login" || title=="Login" ) { %>
+                      <li class="nav-item active">
+                        <% } else { %>
+                      <li class="nav-item">
+                        <% } %>
+                          <a class="nav-link" href="/login"><i class="fa-solid fa-house-chimney"></i> Login</a>
+                      </li>
+
 
       </div>
     </ul>
